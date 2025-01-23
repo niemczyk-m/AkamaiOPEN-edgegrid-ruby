@@ -10,6 +10,8 @@
 #
 # 3. Edit the expiresOn date to today's date. Optionally, you can change the description value.
 #
+# **Important:** Don't use the credentials you're actively using when inactivating a set of credentials. Otherwise, you'll block your access to the Akamai APIs.
+#
 # 4. Open a Terminal or shell instance and run "ruby examples/update-credentials.rb".
 #
 # A successful call returns.
